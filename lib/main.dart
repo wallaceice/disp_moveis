@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
       if (randomNumber == 0) {
         _conta[auxNumber].depositar(random.nextInt(10));
-        _conta[1].depositar(random.nextInt(10));
+        _conta[auxNumber].depositar(random.nextInt(10));
       } else if (randomNumber == 1) {
         _conta[auxNumber].sacar(random.nextInt(10));
       } else
