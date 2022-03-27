@@ -118,7 +118,7 @@ class contapoupanca extends Conta {
 
   displayInfo() {
     return """
-    Conta poupança
+    Conta poupanca
     Saldo: $_Saldo
     Transacao: $_extratobancario  
     """;

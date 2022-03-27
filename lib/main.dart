@@ -78,9 +78,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
       print("numero: $auxNumber");
 
-      if (randomNumber == 0)
+      if (randomNumber == 0) {
         _conta[auxNumber].depositar(random.nextInt(10));
-      else if (randomNumber == 1) {
+        _conta[1].depositar(random.nextInt(10));
+      } else if (randomNumber == 1) {
         _conta[auxNumber].sacar(random.nextInt(10));
       } else
         _conta[auxNumber].transferir(random.nextInt(10), 0);
